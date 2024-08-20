@@ -1,6 +1,5 @@
 package sortAlgorithms;
 
-import static java.util.Collections.swap;
 
 public class SelectionSort {
     public static void implementSelectionSort(int[] arr) {
