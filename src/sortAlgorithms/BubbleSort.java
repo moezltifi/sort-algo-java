@@ -13,9 +13,10 @@ public class BubbleSort {
             }
         }
 
-        System.out.print("Bubble Sort => ");
+        System.out.print("\nBubble Sort => \n");
         for (int j : arr) {
             System.out.print(j + " ");
         }
+
     }
 }
