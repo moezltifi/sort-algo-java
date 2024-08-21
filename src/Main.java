@@ -1,6 +1,7 @@
 import sortAlgorithms.BubbleSort;
 import sortAlgorithms.InsertionSort;
 import sortAlgorithms.SelectionSort;
+import sortAlgorithms.ShellSort;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,5 +9,6 @@ public class Main {
         BubbleSort.implementBubbleSort(array);
         SelectionSort.implementSelectionSort(array);
         InsertionSort.implementInsertionSort(array);
+        ShellSort.implementShellSort(array);
     }
 }
