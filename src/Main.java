@@ -2,6 +2,7 @@ import sortAlgorithms.BubbleSort;
 import sortAlgorithms.InsertionSort;
 import sortAlgorithms.SelectionSort;
 import sortAlgorithms.ShellSort;
+import sortAlgorithms.Recursion;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,5 +11,6 @@ public class Main {
         SelectionSort.implementSelectionSort(array);
         InsertionSort.implementInsertionSort(array);
         ShellSort.implementShellSort(array);
+        Recursion.implementRecursion();
     }
 }
