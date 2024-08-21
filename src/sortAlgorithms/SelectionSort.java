@@ -4,12 +4,10 @@ package sortAlgorithms;
 public class SelectionSort {
     public static void implementSelectionSort(int[] arr) {
 
-        int largest = 0;
+
         int lastUnsortedIndex;
         for (lastUnsortedIndex = arr.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
-
-            largest = 0;
-
+            int largest = 0;
             for (int i = 0; i <= lastUnsortedIndex; i++) {
                 if (arr[i] > arr[largest]) {
                     largest = i;
