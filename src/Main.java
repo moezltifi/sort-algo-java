@@ -1,8 +1,4 @@
-import sortAlgorithms.BubbleSort;
-import sortAlgorithms.InsertionSort;
-import sortAlgorithms.SelectionSort;
-import sortAlgorithms.ShellSort;
-import sortAlgorithms.Recursion;
+import sortAlgorithms.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,5 +8,6 @@ public class Main {
         InsertionSort.implementInsertionSort(array);
         ShellSort.implementShellSort(array);
         Recursion.implementRecursion();
+        MergeSort.implementMergeSort(array, 0, array.length );
     }
 }
