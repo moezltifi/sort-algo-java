@@ -9,5 +9,6 @@ public class Main {
         ShellSort.implementShellSort(array);
         Recursion.implementRecursion();
         MergeSort.implementMergeSort(array, 0, array.length );
+        QuickSort.implementQuickSort(array, 0, array.length );
     }
 }
