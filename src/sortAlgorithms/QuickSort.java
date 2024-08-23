@@ -29,6 +29,7 @@ public class QuickSort {
             }
         }
         arr[j] = pivot;
+        return j;
     }
 
 }
