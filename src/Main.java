@@ -10,5 +10,6 @@ public class Main {
         Recursion.implementRecursion();
         MergeSort.implementMergeSort(array, 0, array.length );
         QuickSort.implementQuickSort(array, 0, array.length );
+        CountingSort.implementCountingSort(array);
     }
 }
