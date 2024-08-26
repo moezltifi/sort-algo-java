@@ -13,5 +13,6 @@ public class Main {
         QuickSort.implementQuickSort(array, 0, array.length );
         CountingSort.implementCountingSort(array);
         RadixSort.implementRadixSort(radixArray, 10, 4 );
+        JDKSort.implementJDKSort(array);
     }
 }
