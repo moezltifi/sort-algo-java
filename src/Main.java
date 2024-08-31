@@ -15,5 +15,6 @@ public class Main {
         RadixSort.implementRadixSort(radixArray, 10, 4 );
         JDKSort.implementJDKSort(array);
         Challenge1.implementChallenge1(array, 0, array.length);
+        Challenge2.implementChallenge2(array,array.length);
     }
 }
