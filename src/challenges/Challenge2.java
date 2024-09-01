@@ -1,4 +1,4 @@
-package sortAlgorithms;
+package challenges;
 
 public class Challenge2 {
     public static void implementChallenge2(int[] arr ,int numItems) {

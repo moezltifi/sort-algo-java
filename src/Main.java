@@ -1,8 +1,11 @@
+import challenges.Challenge1;
+import challenges.Challenge2;
 import sortAlgorithms.*;
 
 public class Main {
     public static void main(String[] args) {
         int[] array = {64, -34, -25, 12, 22, 11, 90};
+        String[] ch = {"moez", "ltif", "moha", "ahme", "hdcu"};
         int[] radixArray = {6544, 3784, 2597, 1523, 1522, 7811, 1990};
         BubbleSort.implementBubbleSort(array);
         SelectionSort.implementSelectionSort(array);
